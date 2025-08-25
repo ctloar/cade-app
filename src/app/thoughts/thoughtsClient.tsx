@@ -22,7 +22,7 @@ export default function ThoughtsClient({ articles }: { articles: Article[] }) {
           {articles.map((article) => (
             <div
               key={article.slug}
-              className="flex items-center border border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg hover:bg-gray-800 hover:opacity-90 hover:transition-all duration-300"
+              className="flex items-center border border-gray-300 rounded-lg p-4 hover:bg-gray-100 dark:hover:bg-gray-800 hover:transition-all duration-300"
               onClick={() => router.push(`/thoughts/${article.slug}`)}
             >
               <div>

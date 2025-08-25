@@ -3,34 +3,6 @@
 import React from 'react';
 import Header from '@/components/header';
 
-interface Project {
-  id: number;
-  name: string;
-  description: string;
-  imageUrl: string;
-}
-
-const projects: Project[] = [
-  {
-    id: 1,
-    name: 'Personal Portfolio',
-    description: 'A personal portfolio website to showcase my projects and skills.',
-    imageUrl: '/images/portfolio.jpg',
-  },
-  {
-    id: 2,
-    name: 'E-commerce Platform',
-    description: 'A full-stack e-commerce platform with user authentication and payment integration.',
-    imageUrl: '/images/ecommerce.jpg',
-  },
-  {
-    id: 3,
-    name: 'Weather App',
-    description: 'A weather forecasting app using OpenWeatherMap API.',
-    imageUrl: '/images/weather-app.jpg',
-  },
-];
-
 export default function Projects(){
   return (
     <>

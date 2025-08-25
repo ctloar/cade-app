@@ -1,42 +1,38 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import { Sun, Moon } from 'lucide-react';
+import Link from 'next/link';
 import ThemeSwitcher from './themeSwitcher';
-
-interface HeaderProps {
-  isDark: boolean;
-  toggleTheme: () => void;
-}
 
 export default function Header() {
 
-    const pages = ["about", "thoughts", "projects", "fun"];
+    const pages = ["about", "thoughts", "projects"];
 
   return (
     <header className='top-0 left-0 right-0 z-50 transition-all duration-500 ease-out bg-transparent flex justify-between items-center p-6 md:p-8'>
-      <div className='text-xl font-light tracking-wider transition-all duration-300 cursor-default'
-      style={{ cursor: 'default' }}
-      onClick={
-        () => window.location.href = '/'}>
+      <Link 
+        className='text-xl font-light tracking-wider transition-all duration-300 cursor-default'
+        style={{ cursor: 'default' }}
+        href="/"
+      >
         _CL
-      </div>
+      </Link>
       
       <nav className='hidden md:flex space-x-12 text-sm font-light tracking-wide transition-all duration-300'>
         {
             pages.map((page) => (
-                <a 
+                <Link
                 key={page} 
                 href={`/${page}`} 
                 style={{ cursor: 'default' }}
                 className='hover:opacity-60 transition-opacity duration-200 dark:text-gray-300 text-gray-600'
                 
                 >
-                {page.toUpperCase()}
-                </a>
+                  {page.toUpperCase()}
+                </Link>
             ))
         }
       </nav>
+      {/* <ThemeSwitcher /> */}
       <ThemeSwitcher />
       {/* Mobile Navigation */}
       <nav className="md:hidden fixed bottom-0 left-0 right-0 p-4 z-50">

@@ -62,22 +62,22 @@ const About: React.FC = () => {
             />
             
             <p className='text-lg font-light leading-relaxed'>
-            Hello!
+            Hi! I'm Cade 👋
             <span className='block mb-4'></span>
-            My name is Cade Loar. Thanks for visiting my website!
+            As a full-stack, user-focused software engineer, I'm passionate about building thoughtful, 
+            intuitive products that leave users smiling. 
             <span className='block mb-4'></span>
-            I am a BYU alumni with Master's and Bachelor's degrees in Information Systems Management. 
-            I am a passionate TECHNOLOGIST with a strong background in SOFTWARE ENGINEERING. 
-            I love experimenting with new tech, AI, and such.
+            I combine strong technical skills with a sharp 
+            eye for UX and clear communication—bridging the gap between engineering and real user needs.
+            <span className='block mb-4'></span>
+            I earned Master's and Bachelor's degrees in Information Systems Management from BYU, where I
+            developed a strong foundation in software engineering, cloud architecture, and product management.
             <span className='block mb-4' />
-            I love to play and watch basketball, travel, learn new skills, try new restaurants, 
+            I love to watch and play basketball, travel, learn new skills, try new restaurants, 
             and hang out with friends and family. 
-            There's something magical about discovering a new restaurant with friends 
-            or learning a skill that completely changes how you approach problems.
-            <span className='block mb-4'></span>
-            When I'm not coding or exploring the latest AI developments, you'll probably find me 
-            on a basketball court, planning my next travel adventure, or trying to convince my 
-            friends to check out that new restaurant I found on Instagram.
+            When I'm not building a product or exploring the latest AI developments, 
+            you'll probably find me on a basketball court, planning my next travel adventure, 
+            or trying to convince my friends and family to check out a new restaurant!
             </p>
             
             {/* Clear float */}
@@ -99,18 +99,15 @@ const About: React.FC = () => {
             {
                 careerData.map((career) => (
                     <div key={career.id} className={`border-l-2 pl-6 ${
-                        // isDark ? 'border-gray-600' : 'border-gray-300'
                         'dark:border-gray-600 light:border-gray-300'
                     }`}>
                         <div className="space-y-2">
                         <h3 className={`text-lg ${
-                            // isDark ? 'text-white' : 'text-text-light'
                             'dark:text-white light:text-text-light'
                         }`}>
                             <a className='font-medium text-blue-300' href={career.link} target='_blank'>{career.company}</a> • <span className='font-light'>{career.title}</span>
                         </h3>
                         <p className={`text-sm ${
-                            // isDark ? 'text-gray-400' : 'text-gray-500'
                             'dark:text-gray-400 light:text-gray-500'
                         }`}>
                             {career.duration} • {career.location}

@@ -6,10 +6,10 @@ tags: ["nextjs", "react", "typescript", "web-development"]
 published: true
 ---
 
-# Startup culture
+# My Header
 
-Here's the actual content of your article...
+This is a paragraph.
 
-## Section 1
+## Subheading
 
-More content here...
+**Bold**, *italic*, and more...

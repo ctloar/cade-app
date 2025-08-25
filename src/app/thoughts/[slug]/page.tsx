@@ -1,6 +1,7 @@
 import { getArticleBySlug, getAllArticles } from '@/lib/articles';
 import Header from '@/components/header';
 import { notFound } from 'next/navigation';
+import MarkdownRenderer from '@/components/markdownRender';
 
 interface Props {
   params: { slug: string };
@@ -17,7 +18,7 @@ export default async function ArticlePage({ params }: Props) {
     <>
       <Header />
       <main className="max-w-3xl mx-auto px-6 py-12 md:py-20">
-        <div>
+        <div className='prose dark:prose-invert max-w-none'>
           <header className="mb-8">
             <h1 className="text-3xl md:text-4xl font-light tracking-wide mb-4">
               {article.title}
@@ -40,10 +41,9 @@ export default async function ArticlePage({ params }: Props) {
               ))}
             </div>
           </header>
-          <div 
-            className="prose dark:prose-invert max-w-none"
-            dangerouslySetInnerHTML={{ __html: article.content || '' }}
-          />
+          <article className="prose prose-slate">
+            <MarkdownRenderer content={article.content || ''} />
+          </article>
         </div>
       </main>
     </>

@@ -57,7 +57,8 @@ export async function getArticleBySlug(slug: string): Promise<Article | null> {
       excerpt: data.excerpt,
       tags: data.tags || [],
       published: data.published ?? true,
-      content: contentHtml,
+      // content: contentHtml,
+      content: content,
     };
   } catch (error) {
     return null;
