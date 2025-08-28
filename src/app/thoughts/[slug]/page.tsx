@@ -2,6 +2,8 @@ import { getArticleBySlug, getAllArticles } from '@/lib/articles';
 import Header from '@/components/header';
 import { notFound } from 'next/navigation';
 import MarkdownRenderer from '@/components/markdownRender';
+import { FaArrowLeft } from 'react-icons/fa';
+import Link from 'next/link';
 
 interface Props {
   params: { slug: string };
@@ -17,7 +19,7 @@ export default async function ArticlePage({ params }: Props) {
   return (
     <>
       <Header />
-      <main className="max-w-3xl mx-auto px-6 py-12 md:py-20">
+      <main className="max-w-3xl mx-auto px-6 py-12 md:py-20 cursor-default">
         <div className='prose dark:prose-invert max-w-none'>
           <header className="mb-8">
             <h1 className="text-3xl md:text-4xl font-light tracking-wide mb-4">

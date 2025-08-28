@@ -1,15 +1,26 @@
 ---
-title: "Quote of the Week #1"
+title: "The Happiness Advantage by Shawn Achor"
 date: "2024-08-06"
-excerpt: "Do not squander time, for that's the stuff life is made of... (Benjamin Franklin)"
-tags: ["book review 📚", "react", "typescript", "web-development"]
+excerpt: "Just finished reading The Happiness Advantage by Shawn Achor, and it gave me a whole new perspective on success, motivation, and resilience. This article shares a few insights that really stuck with me."
+tags: ["book review"]
 published: true
 ---
 
-## Time is Your Greatest Asset
+> "Happiness is the precursor to success, not merely the result..."
 
-We all have the same 24 hours in each day. 
+Just finished reading *The Happiness Advantage* by **Shawn Achor**, and it gave me a whole new perspective on success, motivation, and resilience. Here are a few insights that really stuck with me:
 
-Yet we all spend it differently. Everyone has their priorities and makes their own choices. Many of us fall into the way of thinking that 'squanders' time... I often think 'oh, I'll get around to that task later' or 'I have the rest of my life to do xyz...'. 
+### Key Insights
+- **The Losada Line**: Positivity isn’t just feel-good fluff. There’s a tipping point where teams and individuals actually perform better. Teams that strive for a ratio of positive to negative interactions higher than **3:1** produce their best work.
 
-I believe this is the very trap Ben Franklin is warning us about. Time is what life is made of. We need to maximize it rather than squander it.
+- **Social Investment**: In times of stress or challenges, our instinct might be to retreat...but the happiest and most resilient people do the opposite. They lean into their relationships. Investing in social connections is one of the most powerful tools we have for performance and well-being.
+
+- **The Pygmalion Effect**: When we believe in someone’s potential (including our own), performance follows. Visualizing growth and believing in potential can rewire outcomes.
+
+Many of us fall into the trap of thinking that we'll be happy when we get that next promotion, or graduate college, or a number of other reasons. But the truth is, happiness leads to success, not the other way around. This book helped me realize that the most productive and beneficial course of action I can take is to be proactive in seeking out happiness. 
+
+Choosing happiness now is actually an advantage... hence the title of the book. Hapiness has been proven to make us more sharp, productive, and successful. The book provides several ideas for infusing everyday life with happiness.
+
+---
+
+For anyone looking for their next read, I highly recommend this one!

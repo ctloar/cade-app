@@ -5,7 +5,7 @@ import ThemeSwitcher from './themeSwitcher';
 
 export default function Header() {
 
-    const pages = ["about", "thoughts", "projects"];
+    const pages = ["about", "projects", "thoughts"];
 
   return (
     <header className='top-0 left-0 right-0 z-50 transition-all duration-500 ease-out bg-transparent flex justify-between items-center p-6 md:p-8'>
