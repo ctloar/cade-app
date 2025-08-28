@@ -3,9 +3,13 @@ import Header from '@/components/header';
 import { notFound } from 'next/navigation';
 import MarkdownRenderer from '@/components/markdownRender';
 
-interface PageProps {
-  params: Promise<{ slug: string }> | { slug: string };
-}
+type PageParams = {
+  slug: string;
+};
+
+type PageProps = {
+  params: Promise<PageParams>;
+};
 
 export default async function ArticlePage({ params }: PageProps) {
   const resolvedParams = await params;
