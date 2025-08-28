@@ -3,7 +3,7 @@
 import React from 'react';
 import Header from '@/components/header';
 import { projects } from '@/lib/projects';
-import { FaGithub, FaYoutube, FaLink, FaNewspaper, FaRegFilePdf, FaArrowUpRightFromSquare } from 'react-icons/fa6';
+import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 
 const Projects: React.FC = () => {
   return (
